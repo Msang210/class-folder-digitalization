@@ -1,46 +1,77 @@
-# Digital Class Folder (DCF) - Business Analysis Portfolio
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen) ![Type](https://img.shields.io/badge/Type-BA%20Portfolio-blue) ![Domain](https://img.shields.io/badge/Domain-EdTech-orange)
 
-Chào mừng bạn đến với dự án **Số hóa "Sổ Đầu Bài" (Digital Class Folder)** dành cho trung tâm Anh ngữ VUS. Đây là một dự án phân tích nghiệp vụ (Business Analysis) từ giai đoạn lên ý tưởng (Ideation) đến thiết kế giao diện (UI/UX Prototype), thể hiện cách tiếp cận giải quyết một vấn đề vận hành thực tế bằng công nghệ.
+# Digital Class Folder (DCF) — BA Portfolio Project
 
----
-
-## Tổng quan dự án (Project Overview)
-
-- **Vấn đề cốt lõi:** Việc sử dụng "Sổ Đầu Bài" bằng giấy hoặc Google Sheets phân tán tại các trung tâm tiếng Anh gây tốn thời gian cho Trợ giảng (TA), dẫn đến chậm trễ trong việc cập nhật thông tin cho Phụ huynh và khó khăn trong việc quản lý chất lượng giảng dạy.
-- **Giải pháp:** Xây dựng hệ thống **DCF Platform (VUS Portal)** giúp TA nhập liệu nhanh chóng bằng Quick Tags, tự động xoay vòng đánh giá học viên (Auto-Rotate), và gửi cảnh báo tức thời (Real-time Alert) cho bộ phận Hỗ trợ học thuật (ASA) khi có sự cố.
-- **Mục tiêu:** Giảm 70% thời gian nhập liệu cho TA, tăng tốc độ xử lý sự cố từ "buổi hôm sau" xuống còn `< 2 giờ`, và tăng tỷ lệ hoàn thành sổ đầu bài lên `> 95%`.
+Dự án **Số hóa "Sổ Đầu Bài" (Digital Class Folder)** cho trung tâm Anh ngữ — từ giai đoạn phân tích vấn đề đến thiết kế giao diện hoàn chỉnh, thể hiện quy trình làm việc thực tế của một Business Analyst.
 
 ---
 
-## Cấu trúc Repository
+## Vấn đề & Giải pháp
 
-Dự án được cấu trúc theo các Phase phát triển nghiệp vụ, bạn có thể đọc theo thứ tự từ trên xuống dưới để nắm rõ toàn bộ quy trình:
-
-### 1. [Tài liệu Nghiệp vụ (Docs)](docs/)
-Chứa các tài liệu phân tích và thiết kế hệ thống chi tiết:
-- 📄 [Phase 1: Feature Ideation & Scope](docs/phase1-feature-ideation.md) - Phân tích tính năng, định nghĩa In-Scope/Out-of-Scope và xác định các Actors.
-- 📄 [Phase 2: Business Process Flow](docs/phase2-process-flow.md) - Sơ đồ luồng quy trình nghiệp vụ (As-Is & To-Be), BPMN Swimlane.
-- 📄 [Phase 3: BRD & User Stories](docs/phase3-brd-user-stories.md) - Tài liệu Yêu cầu Nghiệp vụ (BRD), Use Cases chi tiết và User Stories theo chuẩn INVEST.
-
-### 2. [Sơ đồ (Diagrams)](diagrams/)
-*(Lưu ý: Các sơ đồ luồng dữ liệu, BPMN và Sequence Diagram được nhúng trực tiếp dưới dạng mã Mermaid trong các file tài liệu Markdown ở thư mục `docs/`. Bạn có thể sử dụng tính năng Preview của GitHub hoặc các trình biên dịch Markdown để xem trực quan.)*
-
-### 3. [Giao diện (Prototype)](prototype/)
-Các thiết kế giao diện mô phỏng (Mockups/Wireframes) được xây dựng dựa trên các User Stories đã định nghĩa:
-- **1_ta_dashboard.png:** Màn hình tổng quan của Trợ giảng (TA).
-- **2_class_folder_form.png:** Màn hình nhập liệu Sổ đầu bài với tính năng Quick Tags.
-- **3_class_monitor.png:** Màn hình theo dõi tiến độ các lớp đang dạy.
-- **4_student_profile.png:** Hồ sơ học viên và lịch sử nhận xét.
-- **5_asa_dashboard.png:** Màn hình Communication Queue dành cho bộ phận ASA xử lý cảnh báo khẩn cấp.
+| | |
+|---|---|
+| **Vấn đề** | Trợ giảng (TA) ghi sổ bằng giấy hoặc Google Sheets phân tán — tốn > 15 phút/buổi, thông tin chậm đến Phụ huynh, không có dữ liệu để quản lý chất lượng |
+| **Giải pháp** | Hệ thống **DCF Platform (VUS Portal)** với Quick Tags, Auto-Rotate Suggestion, Real-time Incident Alert và ASA Communication Queue |
+| **Mục tiêu đo được** | Giảm 70% thời gian nhập liệu · Xử lý sự cố `< 2 giờ` · Tỷ lệ hoàn thành sổ `> 95%` |
 
 ---
 
-## Các kỹ năng BA nổi bật trong dự án
+## Lộ trình Dự án (4 Phases)
 
-Dự án này thể hiện năng lực trong các khía cạnh:
-1. **Requirements Elicitation & Analysis:** Phân tích từ Pain-points thực tế để đưa ra các tính năng High-Impact (như Quick Tags, Auto-Rotate Suggestion).
-2. **Process Modeling:** Lập bản đồ quy trình nghiệp vụ hiện tại (As-Is) và đề xuất quy trình số hóa (To-Be) sử dụng Sequence Diagram.
-3. **Documentation:** Viết Business Requirements Document (BRD), Use Case Specifications chi tiết.
-4. **Agile Framework:** Chuyển đổi yêu cầu thành các User Stories có thể phát triển được, đảm bảo tiêu chí INVEST và có Acceptance Criteria rõ ràng.
-5. **UI/UX Translation:** Khả năng hình dung và truyền đạt yêu cầu hệ thống thành các thiết kế giao diện trực quan và thân thiện với người dùng cuối (TA & ASA).
+### Phase 1 — Feature Ideation & Scope
+📄 [`docs/phase1-feature-ideation.md`](docs/phase1-feature-ideation.md)
 
+Phân tích 10 tính năng tiềm năng theo ma trận Impact × Effort. Xác định 5 tính năng MVP, định nghĩa In-Scope/Out-of-Scope, và lập bảng Actor Table với 5 stakeholder chính (TA, ASA, Teacher, TQM, Hệ thống).
+
+### Phase 2 — Business Process Flow
+📄 [`docs/phase2-process-flow.md`](docs/phase2-process-flow.md)
+
+Lập bản đồ quy trình As-Is (hiện trạng) và To-Be (đề xuất). Bao gồm BPMN Swimlane (TA ↔ System ↔ ASA ↔ Teacher ↔ TQM), Sequence Diagram cho luồng hàng ngày và báo cáo định kỳ W5/W10, đặc tả Auto-Rotate business logic.
+
+> **Lưu ý:** Tất cả sơ đồ BPMN, Sequence Diagram và System Architecture được nhúng trực tiếp dưới dạng **Mermaid code** trong các file `.md` — GitHub tự render thành sơ đồ khi xem trực tuyến.
+
+### Phase 3 — BRD & User Stories
+📄 [`docs/phase3-brd-user-stories.md`](docs/phase3-brd-user-stories.md)
+
+Tài liệu Business & Functional Requirements Document (BRD & FRD) đầy đủ gồm: Stakeholder Register, Business Case/ROI baseline, 5 Use Case Specifications (UC-CF-01 đến UC-CF-05), 4 User Stories theo chuẩn INVEST kèm Acceptance Criteria, và bảng NFR chi tiết.
+
+### Phase 4 — UI/UX Prototype
+📁 [`prototype/`](prototype/)
+
+5 màn hình thiết kế dựa trên User Stories đã định nghĩa. Design System sử dụng: **Bricolage Grotesque** (heading) + **Inter** (body), sidebar navy `#1e293b`, primary `#1d3072`. Xem chi tiết tại [`prototype/README.md`](prototype/README.md).
+
+---
+
+## Preview Giao diện
+
+### TA Dashboard — Màn hình chính của Trợ giảng
+![TA Dashboard](prototype/1_ta_dashboard.png)
+
+### Class Folder Form — Nhập liệu với Quick Tags
+![Class Folder Form](prototype/2_class_folder_form.png)
+
+### Class Monitor — Tổng quan các lớp đang dạy
+![Class Monitor](prototype/3_class_monitor.png)
+
+### Student Profile — Hồ sơ & lịch sử nhận xét học viên
+![Student Profile](prototype/4_student_profile.png)
+
+### ASA Communication Dashboard — Xử lý cảnh báo & liên hệ Phụ huynh
+![ASA Dashboard](prototype/5_asa_dashboard.png)
+
+---
+
+## Năng lực BA thể hiện trong dự án
+
+| Kỹ năng | Bằng chứng cụ thể |
+|---|---|
+| **Requirements Elicitation** | Phân tích Pain-points → 5 tính năng MVP có đo lường ROI baseline |
+| **Process Modeling** | BPMN Swimlane 5 actor, Sequence Diagram As-Is & To-Be |
+| **BRD Documentation** | Stakeholder Register, Use Case Specs, NFR table, Version History, Sign-off |
+| **Agile / User Stories** | 4 US theo INVEST, Acceptance Criteria 3 kịch bản (happy/edge/negative) |
+| **UI/UX Translation** | 5 màn hình prototype nhất quán với Design System đã định nghĩa |
+| **Version Control** | Git commit history thể hiện tư duy documentation theo milestone |
+
+---
+
+*Dự án hoàn thành tháng 6/2026.*
