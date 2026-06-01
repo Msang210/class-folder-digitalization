@@ -12,13 +12,6 @@
 | 1.1 | 2026-05-30 | BA Team | Added Stakeholder Register, Business Case, NFRs (Privacy, Scalability), TQM Use Case. |
 | 1.2 | 2026-05-30 | BA Team | Removed invalid UML Use Case diagram, added INVEST self-check tables, Impact x Effort Matrix, and System Architecture Diagram. Unified Teacher terminology. |
 
-### Sign-off
-| Name | Role / Title | Signature | Date |
-|---|---|---|---|
-| [Name] | Project Sponsor | _________________ | ___/___/2026 |
-| [Name] | Academic Director | _________________ | ___/___/2026 |
-| [Name] | TQM Manager | _________________ | ___/___/2026 |
-
 ---
 
 ## 1. Tóm tắt điều hành (Executive Summary)
@@ -478,6 +471,3 @@ flowchart TD
 | **Auto-Rotate** | Thuật toán luân chuyển ưu tiên chọn học viên chưa được nhận xét lâu nhất. |
 | **Quick Tags** | Hệ thống thẻ đánh giá nhanh hành vi/thái độ, tiết kiệm thời gian gõ chữ. |
 
-## 13. Phụ lục
-- [Link đến UI/UX Wireframes] *(Sẽ cập nhật ở Phase Thiết kế Giao diện)*
-- [Link đến tài liệu API / ERD Database] *(Sẽ cập nhật ở Phase Development)*
