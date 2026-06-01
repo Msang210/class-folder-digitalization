@@ -2,6 +2,8 @@
 
 Thư mục này chứa 5 màn hình thiết kế giao diện cho hệ thống **VUS Portal (DCF Platform)**, được xây dựng dựa trên User Stories và Use Cases đã định nghĩa trong [Phase 3](../docs/phase3-brd-user-stories.md).
 
+> **[Xem thiết kế trên Figma →](https://www.figma.com/design/1EEfOhjwVWJFDik4i4u5yf/Digital-CF?node-id=0-1&t=485Qb1yHpVVvYS0m-1)**
+
 ---
 
 ## Công cụ & Design System
@@ -9,6 +11,7 @@ Thư mục này chứa 5 màn hình thiết kế giao diện cho hệ thống **
 | Hạng mục | Chi tiết |
 |---|---|
 | **Tool** | Google Stitch (AI-assisted UI generation) |
+| **Figma File** | [Digital CF — VUS Portal](https://www.figma.com/design/1EEfOhjwVWJFDik4i4u5yf/Digital-CF?node-id=0-1&t=485Qb1yHpVVvYS0m-1) |
 | **Design System** | VUS Elite Portal — xem spec đầy đủ tại [`prototype/design-system.md`](design-system.md) |
 | **Heading Font** | Bricolage Grotesque (Bold 700) |
 | **Body Font** | Inter (Regular 400) |

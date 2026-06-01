@@ -40,6 +40,8 @@ Tài liệu Business & Functional Requirements Document (BRD & FRD) đầy đủ
 
 5 màn hình thiết kế dựa trên User Stories đã định nghĩa. Design System sử dụng: **Bricolage Grotesque** (heading) + **Inter** (body), sidebar navy `#1e293b`, primary `#1d3072`. Xem chi tiết tại [`prototype/README.md`](prototype/README.md).
 
+**[Xem thiết kế trên Figma →](https://www.figma.com/design/1EEfOhjwVWJFDik4i4u5yf/Digital-CF?node-id=0-1&t=485Qb1yHpVVvYS0m-1)**
+
 ---
 
 ## Preview Giao diện
