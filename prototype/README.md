@@ -8,8 +8,8 @@ Thư mục này chứa 5 màn hình thiết kế giao diện cho hệ thống **
 
 | Hạng mục | Chi tiết |
 |---|---|
-| **Tool** | Google Stitch (AI-assisted UI generation) + Figma |
-| **Design System** | VUS Elite Portal — xem spec đầy đủ tại [`vus_elite_portal/DESIGN.md`] |
+| **Tool** | Google Stitch (AI-assisted UI generation) |
+| **Design System** | VUS Elite Portal — xem spec đầy đủ tại [`prototype/design-system.md`](design-system.md) |
 | **Heading Font** | Bricolage Grotesque (Bold 700) |
 | **Body Font** | Inter (Regular 400) |
 | **Sidebar** | `#1e293b` dark navy, fixed 260px |
