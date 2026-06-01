@@ -40,11 +40,9 @@ Thư mục này chứa 5 màn hình thiết kế giao diện cho hệ thống **
 ### 1. Quick Tags thay vì textarea tự gõ
 Tính năng cốt lõi giảm thời gian nhập liệu. Tag chips màu **xanh lá** = điểm tích cực, **amber** = cần cải thiện — màu sắc có ngữ nghĩa rõ ràng, không cần đọc label.
 
-### 2. Auto-Rotate fairness metric (circular progress)
-Hiển thị "Tần suất được nhận xét" (%) trên Student Profile để TA biết học viên nào đang được đánh giá đều hoặc bị bỏ sót — giao diện hóa business logic của Auto-Rotate engine.
 
-### 3. Urgent toggle ON state — intentional red
+### 2. Urgent toggle ON state — intentional red
 Khi TA bật toggle "Báo cáo sự cố khẩn cấp", toàn bộ card chuyển đỏ, mở text field mô tả và nút "Gửi Alert". Màu đỏ ở đây là **tín hiệu khẩn cấp có chủ đích** — không phải lỗi UI.
 
-### 4. ASA Queue layout (CRM pattern)
+### 3. ASA Queue layout (CRM pattern)
 Màn hình ASA dùng layout queue (trái) + template preview (phải) theo pattern CRM/helpdesk chuẩn, phân cấp KHẨN CẤP (red border) vs bình thường (blue border) — giúp ASA scan nhanh và ưu tiên xử lý.
