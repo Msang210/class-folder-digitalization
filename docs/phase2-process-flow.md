@@ -26,17 +26,17 @@ TRƯỚC GIỜ DẠY
     │
     ▼
 ┌─────────────────────────────────────────────────────────┐
-│ 1. TA đăng nhập VUS Portal → Mở Dashboard              │
-│    System hiển thị: buổi hôm nay, CF đã/chưa nộp       │
+│ 1. TA đăng nhập VUS Portal → Mở Dashboard               │
+│    System hiển thị: buổi hôm nay, CF đã/chưa nộp        │
 └─────────────────────────────────────────────────────────┘
     │
     ▼
 ┌─────────────────────────────────────────────────────────┐
 │ 2. TA chọn lớp cần điền CF (click "Điền CF")            │
 │    System mở Class Folder Form, auto-fill:              │
-│    - Tên lớp, buổi số, ngày, teacher, TA               │
-│    - Sĩ số lớp                                         │
-│    - 5 học viên suggest (Auto-Rotate Engine)           │
+│    - Tên lớp, buổi số, ngày, teacher, TA                │
+│    - Sĩ số lớp                                          │
+│    - 5 học viên suggest (Auto-Rotate Engine)            │
 └─────────────────────────────────────────────────────────┘
     │
     ▼
@@ -45,24 +45,24 @@ SAU GIỜ DẠY
     ▼
 ┌─────────────────────────────────────────────────────────┐
 │ 3. TA nhập nhận xét cho từng học viên:                  │
-│    - Chọn các Quick Tags (VD: #SôiNổi, #KémTậpTrung)   │
-│    - Tick Checklist bài tập (☑ Đã nộp / ☐ Chưa nộp)   │
+│    - Chọn các Quick Tags (VD: #SôiNổi, #KémTậpTrung)    │
+│    - Tick Checklist bài tập (☑ Đã nộp / ☐ Chưa nộp)     │
 │    Option: [+ Thêm học viên khác] ngoài 5 suggest       │
 └─────────────────────────────────────────────────────────┘
     │
     ▼
 ┌─────────────────────────────────────────────────────────┐
-│ 4. Phân loại sự cố (Incident check)                    │
-│    TA kiểm tra xem có học sinh vi phạm/sự cố không?    │
+│ 4. Phân loại sự cố (Incident check)                     │
+│    TA kiểm tra xem có học sinh vi phạm/sự cố không?     │
 └─────────────────────────────────────────────────────────┘
     ├── [CÓ SỰ CỐ] ──→ TA cắm cờ "Urgent" / Tag #SựCố ──→ System lập tức GỬI REAL-TIME ALERT (Email/Notif) đến ASA
     │
     ▼
 ┌─────────────────────────────────────────────────────────┐
 │ 5. TA click [SUBMIT]                                    │
-│    System kiểm tra: đủ 5 nhận xét? BTVN đã tick hết?   │
+│    System kiểm tra: đủ 5 nhận xét? BTVN đã tick hết?    │
 │    ── Thiếu → cảnh báo, cho submit anyway               │
-│    ── Đủ → Submit thành công                           │
+│    ── Đủ → Submit thành công                            │
 │    ⚠️ Cảnh báo Deadline: Khóa form nếu quá giờ hạn nộp  │
 └─────────────────────────────────────────────────────────┘
     │
@@ -75,11 +75,11 @@ SAU GIỜ DẠY
     │
     ▼
 ┌─────────────────────────────────────────────────────────┐
-│ 7. ASA mở Communication Dashboard → xem danh sách      │
-│    - Nếu có thẻ Urgent: Ưu tiên xử lý ngay lập tức     │
-│    - Click "Generate Template" tạo tin nhắn mẫu        │
-│    - Liên hệ Phụ huynh (Zalo/Call/Email)               │
-│    - Cập nhật trạng thái "Đã gọi/Đã nhắn/Đã xử lý"     │
+│ 7. ASA mở Communication Dashboard → xem danh sách       │
+│    - Nếu có thẻ Urgent: Ưu tiên xử lý ngay lập tức      │
+│    - Click "Generate Template" tạo tin nhắn mẫu         │
+│    - Liên hệ Phụ huynh (Zalo/Call/Email)                │
+│    - Cập nhật trạng thái "Đã gọi/Đã nhắn/Đã xử lý"      │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -90,37 +90,37 @@ DEADLINE REPORT SẮP ĐẾN
     │
     ▼
 ┌─────────────────────────────────────────────────────────┐
-│ 1. System detect: Lớp X đã đến tuần 5 (hoặc tuần 10)  │
-│    → Gửi nhắc nhở cho TA & TQM                         │
+│ 1. System detect: Lớp X đã đến tuần 5 (hoặc tuần 10)    │
+│    → Gửi nhắc nhở cho TA & TQM                          │
 └─────────────────────────────────────────────────────────┘
     │
     ▼
 ┌─────────────────────────────────────────────────────────┐
-│ 2. TA mở form Báo cáo Định kỳ                          │
+│ 2. TA mở form Báo cáo Định kỳ                           │
 │    System auto-draft (pre-fill) từ data hàng ngày:      │
-│    - Tổng số buổi đã dạy, Điểm danh                    │
-│    - Tỉ lệ BTVN                                        │
-│    - Số lần được nhận xét, các tags phổ biến           │
+│    - Tổng số buổi đã dạy, Điểm danh                     │
+│    - Tỉ lệ BTVN                                         │
+│    - Số lần được nhận xét, các tags phổ biến            │
 └─────────────────────────────────────────────────────────┘
     │
     ▼
 ┌─────────────────────────────────────────────────────────┐
 │ 3. TA review data pre-filled:                           │
-│    - Chỉnh sửa/bổ sung nhận xét tổng quan              │
+│    - Chỉnh sửa/bổ sung nhận xét tổng quan               │
 │    - Viết recommendation (khuyến nghị cho PH)           │
 └─────────────────────────────────────────────────────────┘
     │
     ▼
 ┌─────────────────────────────────────────────────────────┐
-│ 4. TA submit báo cáo                                   │
-│    → Teacher xem trước (có thể add-on comment)         │
-│    → System gửi notification cho ASA                   │
+│ 4. TA submit báo cáo                                    │
+│    → Teacher xem trước (có thể add-on comment)          │
+│    → System gửi notification cho ASA                    │
 └─────────────────────────────────────────────────────────┘
     │
     ▼
 ┌─────────────────────────────────────────────────────────┐
-│ 5. ASA nhận báo cáo → Dùng "Generate Template"         │
-│    → Liên hệ PH & Cập nhật trạng thái                  │
+│ 5. ASA nhận báo cáo → Dùng "Generate Template"          │
+│    → Liên hệ PH & Cập nhật trạng thái                   │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -219,9 +219,9 @@ Quy tắc ưu tiên (Priority Score):
 │    (Được Teacher/TA đánh dấu từ hôm trước)         │
 │                                                    │
 │ P2: HS chưa được nhận xét lần nào                  │
-│    trong khóa hiện tại                              │
+│    trong khóa hiện tại                             │
 │                                                    │
-│ P3: HS có khoảng cách nhận xét dài nhất             │
+│ P3: HS có khoảng cách nhận xét dài nhất            │
 │    (VD: "Lần cuối: 4 tuần trước" > "2 tuần trước") │
 │                                                    │
 │ P4 (Thấp nhất): HS vừa được nhận xét gần đây       │
