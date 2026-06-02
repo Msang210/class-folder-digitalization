@@ -2,7 +2,7 @@
 
 # 🗂️ Class Folder Digitalization
 
-Dự án **Số hóa "Sổ Đầu Bài" (Digital Class Folder)** cho trung tâm Anh ngữ — từ giai đoạn phân tích vấn đề đến thiết kế giao diện hoàn chỉnh, thể hiện quy trình làm việc thực tế của một Business Analyst.
+Dự án **Số hóa "Sổ Đầu Bài" (Digital Class Folder)** cho trung tâm Anh ngữ VUS — từ giai đoạn phân tích vấn đề đến thiết kế giao diện hoàn chỉnh, thể hiện quy trình làm việc thực tế của một Business Analyst.
 
 ---
 
